@@ -168,7 +168,7 @@
   :root[data-theme="dark"] .add-row{ color:var(--gold-500); }
 
   .navbar{
-    display:flex; background:var(--paper); border-top:1px solid var(--line); flex-shrink:0;
+    display:flex; position:absolute; left:0; right:0; bottom:0; z-index:4; background:var(--paper); border-top:1px solid var(--line); flex-shrink:0;
     padding:8px 6px calc(10px + env(safe-area-inset-bottom,0px));
   }
   .navbtn{ position:relative; flex:1; background:none; border:none; display:flex; flex-direction:column; align-items:center; gap:4px; padding:6px 2px; cursor:pointer; color:var(--ink-soft); font-family:'Inter',sans-serif; }

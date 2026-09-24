@@ -26,3 +26,14 @@ bloquean imports JavaScript cuando se abre directamente con `file://`.
 - En la pantalla inicial puedes crear una cuenta, registrar la mascota y luego editar sus datos
   desde **Mascota → Editar información de la mascota**. Para entrar después de recargar, usa el
   mismo correo y contraseña.
+- La versión actual permite varias mascotas, selección de mascota activa, cierre de sesión,
+  historial de peso, configuración de gramos y tipo de alimento, horarios persistentes,
+  recordatorios con fecha y hora, registros de vacunas/medicamentos/citas e historial de
+  dispensaciones.
+
+## Alcance de la demo
+
+La ejecución programada funciona mientras la aplicación está abierta en el navegador. La
+integración con un comedero físico requiere un backend o API del fabricante. Para producción,
+las credenciales deben validarse en un servidor y almacenarse con hash; `localStorage` es solo
+una persistencia local para demostración.
